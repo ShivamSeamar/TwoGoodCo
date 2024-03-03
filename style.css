@@ -265,7 +265,31 @@ background-color: #F7F7F7;
 .child img{
     height: 100%;
 }
-
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+footer {
+    text-align: center;
+    color: #fff;
+    padding: 25px 0;
+    background: #b8bdc2c9;
+    margin-top: 10px;
+  }
+  
+  footer .copyright {
+    margin-bottom: 0.3rem;
+    color: #131111;
+  }
+  
+  footer .credits {
+    margin-bottom: 0;
+    color: blue;
+  }
+  
+  footer .credits a {
+    color: #131111;
+    padding-left: 10px;
+  }
 /* .........for make website responsive..........  */
 @media (max-width:600px) {
     body {
